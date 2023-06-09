@@ -15,7 +15,7 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
  3. (POST)/api/Encrypted/encrypt      ----> encriptado de texto plano 
  4. (POST)/api/Encrypted/decrypt      ----> desencriptado del base 64 devuelvo en endpoint 3 
 
-  # NOTA DE ACCIÓN :  se determinó el uso de rutas dinámicas , para evitar eventuales ambiguedades o conflictos al acceder a estos endpoint para su consumo. 
+ **NOTA DE ACCIÓN :  se determinó el uso de rutas dinámicas , para evitar eventuales ambiguedades o conflictos al acceder a estos endpoint para su consumo.** 
 
 # 2 -CONVENSIONES 
   Se utilizaron convensiones de buenas prácticas a la hora de poder llevar a cabo cada acción . La estructura del programa consiste de : 
@@ -34,7 +34,7 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
  
  Para el almacenamiento se dispone de un archivo JSON, que servirá como simulador del gestor , devolviendo y escribiendo los datos  .
  
-  **NOTA DE ACCIÓN: Se decidió por demostrar la ejecucion del programa a través de una base de datos simple ,realizada con un archivo de texto JSON . Esto se decidió especialmente para darle prioridad a la demostración del uso de .NET CORE  y no ahondar en configuraciones extras de gestores de bases de datos por parte de los evaluadores ( mayor comodidad). Se sabe que en casos  reales se puede disponer de un ORM como EntityFramework actuando como capa de abstracción de datos aprovechando las comodas bondades de la programación orientada a objetos y el uso de SQL server , pero se ejemplo se pretende por esta vez hacer más agil la demostración del uso de .NET  a través del almacenamiento y lectura de un archivo JSON. 
+  **NOTA DE ACCIÓN: Se decidió por demostrar la ejecucion del programa a través de una base de datos simple ,realizada con un archivo de texto JSON . Esto se decidió especialmente para darle prioridad a la demostración del uso de .NET CORE  y no ahondar en configuraciones extras de gestores de bases de datos por parte de los evaluadores ( mayor comodidad). Se sabe que en casos  reales se puede disponer de un ORM como EntityFramework actuando como capa de abstracción de datos aprovechando las comodas bondades de la programación orientada a objetos y el uso de SQL server , pero se ejemplo se pretende por esta vez hacer más agil la demostración del uso de .NET  a través del almacenamiento y lectura de un archivo JSON.** 
   
   
   # 4 IMPLEMENTACIÓN DE ENCRIPTADO Y DESENCRIPTADO 
