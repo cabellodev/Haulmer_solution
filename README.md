@@ -38,9 +38,9 @@ De comienzo , para poder tener una buena experiencia en la ejecución del progra
   
   
   # 4 IMPLEMENTACIÓN DE ENCRIPTADO Y DESENCRIPTADO 
-   Para realizar ambas acciones se selecciono el algoritmo llamado MD5 , que tiene amplio uso por ser sencillo y rápido . Ideal para demostraciones como estás . No se recomienda para casos mas serios donde se necesite mayor seguridad. 
+   Para realizar ambas acciones se selecciono el algoritmo llamado MD5 , que tiene amplio uso por ser sencillo y rápido . Ideal para    demostraciones como estás . No se recomienda para casos mas serios donde se necesite mayor seguridad. 
    
-  # 5 DEMOSTRACIONES ANEXAS : 
+  # 5 DEMOSTRACIONES ANEXAS
     Puede ocupar swagger (que viene integrado con .NET core) para poder realizar las operaciones con los endpoint creados en el proyecto. 
     
   # EVIDENCIA DE EJECUCIÓN ( FOTOGRAFIAS ) 
